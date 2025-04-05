@@ -5,10 +5,10 @@ Welcome to the SMS Spam Classifier project! This repository contains code, examp
 ## Overview
 This project demonstrates how to preprocess, train, and evaluate a spam classifier using the UCI SMS Spam Collection dataset. It includes:
 
-1.Data preprocessing scripts
-2.Feature extraction and engineering techniques
-3.Model training and evaluation pipelines
-4.Utilities for testing and visualizing the classifier's performance
+- Data preprocessing scripts
+- Feature extraction and engineering techniques
+- Model training and evaluation pipelines
+- Utilities for testing and visualizing the classifier's performance
 
 ## Requirements
 You need jupyter notebook to run the ipynb file. You can also use google colab for easy setup.

@@ -12,7 +12,7 @@ This project demonstrates how to preprocess, train, and evaluate a spam classifi
 
 ## Requirements
 You need jupyter notebook to run the ipynb file. You can also use google colab for easy setup.
-Used streamlit to deploy on site.
+Used streamlit to deploy on site. Check the pythonproject1 file for python files used to run this on website.
 
 ## How to Clone and Use This Repository
 

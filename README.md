@@ -12,3 +12,7 @@ This project demonstrates how to preprocess, train, and evaluate a spam classifi
 
 ## How to Clone and Use This Repository
 
+1. **Clone the repository**:
+   ```bash
+   git clone <repository_url>
+

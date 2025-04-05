@@ -37,5 +37,5 @@ Used streamlit to deploy on site. Check the pythonproject1 file for python files
 
 ## Issue with the model : 
 The algorithms trained on unbalanced datasets tends to be biased towards the majority class. I tried to implement the Spam/Ham classifier using Naive Bayes, random forest and ExtraTree Classsifier. The precision ranges from 0.98 to 1.0. But I observe that it is biased towards Ham class (as it is in majority) it works for some statements, but when little bit changes are applied it doesn't work the way it has to.
-Mosly it is biased towards certain words such as claim, prize , alert etc.
+- Mostly it is biased towards certain words such as claim, prize , alert etc.
 

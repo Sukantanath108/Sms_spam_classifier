@@ -10,6 +10,10 @@ This project demonstrates how to preprocess, train, and evaluate a spam classifi
 3.Model training and evaluation pipelines
 4.Utilities for testing and visualizing the classifier's performance
 
+## Requirements
+You need jupyter notebook to run the ipynb file. You can also use google colab for easy setup.
+Used streamlit to deploy on site.
+
 ## How to Clone and Use This Repository
 
 1. **Clone the repository**:
@@ -29,4 +33,9 @@ This project demonstrates how to preprocess, train, and evaluate a spam classifi
    ```bash
    nltk.download('stopwords')
    nltk.download('punkt')
+   ```
+
+## Issue with the model : 
+The algorithms trained on unbalanced datasets tends to be biased towards the majority class. I tried to implement the Spam/Ham classifier using Naive Bayes, random forest and ExtraTree Classsifier. The precision ranges from 0.98 to 1.0. But I observe that it is biased towards Ham class (as it is in majority) it works for some statements, but when little bit changes are applied it doesn't work the way it has to.
+Mosly it is biased towards certain words such as claim, prize , alert etc.
 

@@ -16,3 +16,17 @@ This project demonstrates how to preprocess, train, and evaluate a spam classifi
    ```bash
    git clone <repository_url>
 
+2. **Download Datasets**:
+   ```bash
+   cd Dataset
+3. **To check what files are inside the dataset folder:**
+   ```bash
+   ls
+4. **Install dependencies:**
+   ```bash
+   npm install nltk
+5 . **Download necessary packages for this project**
+   ```bash
+   nltk.download('stopwords')
+   nltk.download('punkt')
+
